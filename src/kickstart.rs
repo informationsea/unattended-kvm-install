@@ -417,11 +417,11 @@ mod test {
 clearpart --none --initlabel
 # Disk partitioning information
 reqpart
-part pv.116 --fstype="lvmpv" --ondisk=sda1 --size=51200 --grow
+part pv.116 --fstype="lvmpv" --ondisk=sda1 --size=15360 --grow
 part /boot --fstype="ext4" --ondisk=sda1 --size=1024
 volgroup almalinux --pesize=4096 pv.116
 logvol swap --fstype="swap" --size=4030 --name=swap --vgname=almalinux
-logvol / --fstype="ext4" --size=30720 --name=root --vgname=almalinux --grow
+logvol / --fstype="ext4" --size=10240 --name=root --vgname=almalinux --grow
 "#
         );
     }
