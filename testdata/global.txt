@@ -1,0 +1,23 @@
+--network=bridge=br0
+--iso=/nfs1/data/linux-iso/AlmaLinux-8.8-x86_64-dvd.iso
+--memory=8192
+--text
+--timezone=Asia/Tokyo
+--keyboard=jp
+--language=ja_JP.UTF-8
+--packages
+@standard
+--packages
+@guest-agents
+--packages
+zsh
+--packages
+tmux
+--rootpw-locked
+--root-sshkey=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHpX60b5krg7yDHkonz0NdTZYs/Snd5OEHW4iKS45B/gOAvupiOPLvO6H7X1Z1dLEIvHCBm3G2krjNwCsTB5CS6fHzOh2KBVmBnVSM+E7nwPt0EzcTxA47EDjdY1eyRyElUp+iCQt+eimUBOvLaqLbFTw25SfOkJJ8kxHq8SN+5yVVM/77cbOGPYIGNXSxyHM76Q89GeZjSTTwqX3DtoJcMOYZ1zzHOahjjhMWYZcjzSAtRJVfYPEHwpFlckVYrimKIe2MQXNP1PcfwOhl0s2qIUBC9xX+S6okz9vaQ5uiiEbsyX/RD06bSjF1knxNxUkcQACORz7xaoynsPZ1WkfyFnIvbN5UA9nVGGxfKt0gooMkwpqYdmuZZa+CIYGtGAhweR+eKJhABI89SQ9vvt22RJPy4rGV5UZSMXcofuct2NmMy+WXSprpYaUiTXwaP/GOh4SPFo0vJ0n53pn5HPCN/MZAZV3o5MRcPP5LgKbNk5M0DKLsIgLun7JWFbz3uH0= dev
+--username=test
+--user-crypt=$6$cTgeUXFn7MEjLyTx$JyTWVS7cZTeb8EKTjH6B9dm5NVbPUCxgfOFy4YETJn/5dwNBSFGnsnRSJyh4kpDicYwAP3YcKRW26pqxIlcih1
+--user-sshkey=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHpX60b5krg7yDHkonz0NdTZYs/Snd5OEHW4iKS45B/gOAvupiOPLvO6H7X1Z1dLEIvHCBm3G2krjNwCsTB5CS6fHzOh2KBVmBnVSM+E7nwPt0EzcTxA47EDjdY1eyRyElUp+iCQt+eimUBOvLaqLbFTw25SfOkJJ8kxHq8SN+5yVVM/77cbOGPYIGNXSxyHM76Q89GeZjSTTwqX3DtoJcMOYZ1zzHOahjjhMWYZcjzSAtRJVfYPEHwpFlckVYrimKIe2MQXNP1PcfwOhl0s2qIUBC9xX+S6okz9vaQ5uiiEbsyX/RD06bSjF1knxNxUkcQACORz7xaoynsPZ1WkfyFnIvbN5UA9nVGGxfKt0gooMkwpqYdmuZZa+CIYGtGAhweR+eKJhABI89SQ9vvt22RJPy4rGV5UZSMXcofuct2NmMy+WXSprpYaUiTXwaP/GOh4SPFo0vJ0n53pn5HPCN/MZAZV3o5MRcPP5LgKbNk5M0DKLsIgLun7JWFbz3uH0= dev
+--user-uid=5000
+--user-gid=5000
+--user-groups=wheel
